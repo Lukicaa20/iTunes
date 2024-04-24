@@ -1,0 +1,66 @@
+.search {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+
+.search h1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.search svg {
+  padding-top: 5px;
+  padding-left: 5px;
+  font-size: 50px;
+}
+
+.container {
+  display: flex;
+}
+
+.input {
+  height: 30px;
+  width: 25%;
+  box-shadow: 0 0 50px lightgray;
+  border: 5px solid grey;
+  border-radius: 10px;
+}
+
+.song {
+  border-radius: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 13px;
+  text-align: center;
+  padding: 10px 0;
+  box-shadow: 0 0 20px grey;
+  height: 100%;
+}
+
+.song img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.slick-slide {
+  margin: 0 10px;
+}
+
+.slick-slider {
+  height: 250px;
+  margin: 0 100px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: grey;
+}
+
+.slick-track {
+  padding-top: 20px;
+}
