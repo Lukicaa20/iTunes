@@ -9,7 +9,7 @@ const Show = ({ data }) => {
     infinite: true,
     speed: 500,
     slidesToShow: 3,
-    slidesToScroll: 3,
+    slidesToScroll: 1,
   };
   return (
     <div className="slider-container">
